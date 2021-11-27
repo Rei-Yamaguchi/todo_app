@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :tags
   resources :todos
   # goalsの配下でdo以下のブロックが回るイメージ
     resources :goals do
